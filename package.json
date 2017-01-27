@@ -1,0 +1,38 @@
+{ "name": "maxuniqid",
+  "version": "0.1.0",
+  "description": "Make counter functions that deliver, one-by-one, all available integers: 0, 1, …, MAX_INT, -1, -2, …, MIN_INT, then throw a RangeError. AMD/UMD package.",
+  "keywords": [
+    "counter",
+    "double",
+    "id",
+    "int",
+    "integer",
+    "max_int",
+    "MAX_INT",
+    "max",
+    "min_int",
+    "MIN_INT",
+    "uniq",
+    "uniqid",
+    "unique",
+    "uniqueid"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/maxuniqid-js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/maxuniqid-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/maxuniqid-js/issues"
+  },
+
+  "private": false, "license": "ISC",
+
+  "main": "uid.js",
+  "scripts": { "test": "nodejs test/all.js" },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
